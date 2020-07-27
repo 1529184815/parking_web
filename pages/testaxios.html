@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="button" value="百度" onclick="baidu()" />
+	</body>
+	 <script src="../plugins/axios/axios-0.18.0.js"></script>
+	 <script>
+	 	function baidu(){
+	 		axios.get("http://www.baidu.com").then(
+	 			resp=>{
+	 				alert(hello);
+	 			}
+	 		);
+	 	}
+	 </script>
+</html>
